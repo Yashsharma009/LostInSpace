@@ -1,0 +1,174 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Genisup</title>
+    <link rel="stylesheet" href="{% static 'css/design.css' %}" type="text/css">
+    
+    <!-- Custom Styles -->
+    <style>
+        /* Add custom styles here */
+
+        /* Section styles */
+        /* Background image styles */
+body {
+    background-image: url('https://c4.wallpaperflare.com/wallpaper/1023/915/631/nasa-space-suit-digital-art-space-wallpaper-preview.jpg'); /* Replace 'path/to/your/image.jpg' with the actual path to your image */
+    background-size: cover; /* This ensures the image covers the entire background */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-attachment: fixed; /* Keeps the background image fixed while scrolling */
+}
+
+        .section {
+            padding: 80px 0;
+        }
+
+        /* Main title styles */
+        .main-title {
+            font-size: 36px;
+            font-weight: bold;
+            margin-bottom: 40px;
+            color: #333;
+        }
+
+        /* Subtitle styles */
+        .subtitle {
+            font-size: 24px;
+            margin-bottom: 20px;
+            color: #555;
+        }
+
+        /* Content styles */
+        .content {
+            font-size: 16px;
+            color: #777;
+        }
+
+        /* Team member styles */
+        .team-member {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .team-member img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 20px;
+        }
+
+        .team-member .name {
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        .team-member .position {
+            font-size: 16px;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <!-- Navigation content -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/about">About Us</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="/services" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Services
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="/services">Semiconductor</a>
+                            <a class="dropdown-item" href="/services">Automobile</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="/services">Manufacturing</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/contact">Contact Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Blog</a>
+                    </li>
+                </ul>
+        
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <form class="form-inline my-2 my-lg-0">
+                            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                        </form>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <i class="fas fa-sign-out-alt"></i> Logout
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </nav>
+
+    <section class="section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="main-title" style="font-size: 80px; color: blueviolet;" >About Us</h2>
+                    <p class="subtitle"></p>
+                    <p class="content"   style="color: white; font-size: 30px;">"Lost In Space" is a dynamic startup with a unique mission dedicated to nurturing young scientific talent and fostering a global perspective among children, transcending geographical boundaries. We offer transformative international experiential learning programs that encompass science, technology, art, and culture.
+
+                        Our pioneering achievement lies in being the first startup globally to facilitate satellite launches in collaboration with high school and college students. This accomplishment underscores our commitment to pushing the boundaries of what young minds can achieve.
+                        
+                        At "Lost In Space," our unwavering commitment revolves around identifying and nurturing young talents in the fields of science and technology. We provide a global platform for these budding geniuses, enhanced by meaningful interactions with prominent Indian scientists who serve as both inspirations and mentors. Our flagship initiative, the "Young Scientist Program," is designed to ignite scientific curiosity among high school students, deepen their understanding of science, and guide them towards promising careers in research.
+                        
+                        However, our mission extends beyond traditional workshops. We've introduced an innovative approach that empowers students to create DIY models of small satellites, including balloon satellites and suborbital satellites. These models are assembled during school workshops and further developed in the comfort of students' homes. Once these DIY satellites are complete, they are sent back to us. Subsequently, we collaborate with esteemed organizations such as ISRO to launch these satellites into space. The data collected from these satellites serves as a wellspring of inspiration and enthusiasm for the students, motivating them to dive deeper into the realms of science and space exploration.
+                        
+                        "Lost In Space" is not just a startup; it's a movement aimed at transforming young minds into curious and capable scientists. We are committed to pushing the boundaries of knowledge and exploration while also fostering a sense of unity and collaboration that transcends borders. Through our innovative programs and initiatives, we aim to inspire the next generation of global scientific leaders, breaking down barriers and paving the way for a brighter future.</p>
+                </div>
+            </div>
+
+            {% comment %} <div class="row">
+                <div class="col-lg-4 team-member">
+                    <img src="{% static 'images/team-member1.jpg' %}" alt="Team Member 1">
+                    <div class="name">John Doe</div>
+                    <div class="position">CEO</div>
+                </div>
+                <div class="col-lg-4 team-member">
+                    <img src="{% static 'images/team-member2.jpg' %}" alt="Team Member 2">
+                    <div class="name">Jane Smith</div>
+                    <div class="position">CTO</div>
+                </div>
+                <div class="col-lg-4 team-member">
+                    <img src="{% static 'images/team-member3.jpg' %}" alt="Team Member 3">
+                    <div class="name">Mark Johnson</div>
+                    <div class="position">COO</div>
+                </div>
+            </div>
+        </div> {% endcomment %}
+    </section>
+
+    <!-- Additional sections or content can be added here -->
+
+    <script src="https://kit.fontawesome.com/your-font-awesome-kit.js" crossorigin="anonymous"></script>
+    <!-- Add any required JavaScript files here -->
+</body>
+</html>
